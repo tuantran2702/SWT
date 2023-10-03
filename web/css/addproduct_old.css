@@ -1,0 +1,164 @@
+.admin-page-content-wrapper {
+    margin-top: 24px;
+}
+
+.product {
+    padding-top: 72px;
+}
+
+.product-info-wrapper {
+    
+}
+
+.product-info {
+    padding: 35px 40px 24px;
+    background: #fff;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 2px 4px 0 rgb(0 0 0 / 5%);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 5%);
+    width: 900px;
+    margin: 0 auto;
+    color: #333;
+}
+
+.product-info__header {
+    padding-bottom: 28px;
+    border-bottom: 1px solid #ededed;
+}
+
+.title {
+    margin-bottom: 6px;
+    font-size: 22px;
+    color: #333;
+    font-weight: 400;
+}
+
+.desc {
+    font-size: 12px;
+    color: #999;
+}
+
+.product-edit {
+    display: flex;
+    padding-top: 32px;
+    margin-bottom: 16px;
+}
+
+.label-product {
+    line-height: 40px;
+    width: 120px;
+    color: #333;
+}
+
+.input-wrap {
+    position: relative;
+    display: inline-block;
+    -webkit-box-flex: 1;
+    flex: 1;
+    padding-bottom: 16px;
+    margin-left: 16px;
+}
+
+.input-wrap__inner {
+    height: 40px;
+    padding: 0 12px;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    font-size: 14px;
+    background-color: #fff;
+    border-collapse: separate;
+    border-spacing: 0;
+    box-sizing: border-box;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    outline: none;
+    transition: border .2s ease-in-out;
+}
+
+.mido-input__input {
+    height: 38px;
+    font-size: 14px;
+    border-radius: 4px;
+    display: table-cell;
+    width: 100%;
+    padding: 0;
+    color: #333;
+    vertical-align: middle;
+    background-color: inherit;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.product-edit-form-item-error {
+    position: absolute;
+    left: 0;
+    top: -32px;
+    z-index: 10;
+    padding: 1px 10px;
+    line-height: 1.5em;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 2px;
+    background: #ee4d2d;
+    box-shadow: 0 2px 4px 0 #e8e8e8;
+    transition: opacity .5s ease;
+    white-space: nowrap;
+}
+
+.product-edit-form-item-error::after {
+    border-color: #ee4d2d transparent transparent;
+    border-width: 6px 8px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+    top: 100%;
+    left: 16px;
+    bottom: 1px;
+}
+
+.mido-input__textarea {
+    width: 100%;
+    margin: 0;
+    overflow-y: auto;
+    font-family: inherit;
+    line-height: 22px;
+    color: #666;
+    padding: 5px 8px;
+    position: relative;
+    font-size: 14px;
+    background-color: #fff;
+    border: 0;
+    outline: none;
+    transition: border .2s ease-in-out;
+}
+
+.input-image {
+    padding-top: 8px;
+    padding-bottom: 16px;
+    margin-left: 16px;
+}
+
+.product-button {
+    color: #fff;
+    background-color: #ee4d2d;
+    border-color: #ee4d2d;
+    height: 40px;
+    min-width: 80px;
+    padding: 0 16px;
+    font-size: 14px;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    user-select: none;
+    margin: 0 auto;
+}

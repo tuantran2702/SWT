@@ -1,0 +1,563 @@
+.admin-header-bar > div {
+    background: #fff;
+}
+.page {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+:not(input):not(textarea) {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.admin-product {
+    padding-top: 72px;
+}
+
+.product-new {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-edit__container {
+    padding-bottom: 40px;
+    min-height: 1200px;
+}
+
+.product-edit__main {
+    width: 1200px;
+    max-width: 1200px;
+    -webkit-box-flex: 0;
+    flex: 0 0 1200px;
+}
+
+.product-edit__section {
+    margin-top: 15px;
+    padding: 32px 40px;
+    background-color: #fff;
+    box-shadow: 0 0.2rem 0.4rem rgb(0 0 0 / 9%);
+}
+
+.product-edit__section > h2 {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #333;
+    font-weight: 500;
+}
+
+.product-basic-info {
+
+}
+
+.product-basic-info__item {
+    margin-bottom: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    align-content: normal;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+}
+
+.edit-label {
+    flex-basis: 200px;
+    width: 200px;
+    max-width: 200px;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: 400;
+    padding-right: 24px;
+    position: relative;
+    min-height: 40px;
+    text-align: right;
+    color: #666;
+}
+
+.mido-image-manager {
+    flex-basis: 920px;
+    width: 920px;
+    max-width: 920px;
+    position: relative;
+    color: #1791f2;
+}
+
+.mido-image-manager  .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mido-image-manager__item {
+    -webkit-box-flex: 0;
+    flex: 0 0 80px;
+    width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+    margin: 0 16px 40px 0;
+}
+
+.popover-wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.mido-image-manager__content {
+    cursor: move;
+    position: relative;
+    height: 0;
+    padding-top: 100%;
+    border-radius: 2px;
+}
+
+.mido-image-manager__upload {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    cursor: pointer;
+    border: 1px dashed #1791f2;
+    border-radius: 2px;
+    transition: color .25s ease,border-color .25s ease;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.mido-image-manager__upload .child {
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+}
+
+.mido-upload {
+    height: 100%;
+}
+
+.mido-upload-wrapper {
+    padding: 0;
+    border: 0;
+    background: #fff;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.mido-upload__input {
+    margin-top: 10px;
+}
+
+.mido-image-manager__upload__content {
+    height: 23px;
+}
+
+.mido-icon {
+    width: 23px;
+    height: 23px;
+    color: #1791f2;
+    display: inline-block;
+    line-height: 0;
+    fill: currentColor;
+}
+
+.mido svg {
+    width: 100%;
+    height: 100%;
+}
+
+.edit-input {
+    flex-basis: 920px;
+    width: 920px;
+    max-width: 920px;
+}
+
+.mido-input__inner {
+    height: 40px;
+    padding: 0 12px;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    font-size: 14px;
+    background-color: #fff;
+    border-collapse: separate;
+    border-spacing: 0;
+    box-sizing: border-box;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    outline: none;
+    transition: border .2s ease-in-out;
+}
+
+.mido-input__input {
+    color: #333;
+    height: 38px;
+    font-size: 14px;
+    border-radius: 4px;
+    display: table-cell;
+    width: 100%;
+    padding: 0;
+    vertical-align: middle;
+    background-color: inherit;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.mido-input__area {
+    position: relative;
+    line-height: 22px;
+    width: 100%;
+    overflow: auto;
+    font-size: 14px;
+    vertical-align: top;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.mido-input__textarea {
+    resize: none;
+    min-height: 210px;
+    height: 210px;
+    width: 100%;
+    padding: 5px 8px;
+    margin: 0;
+    overflow-y: auto;
+    font-family: inherit;
+    line-height: 22px;
+    color: #666;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    outline: none;
+    transition: border .2s ease-in-out;
+}
+
+.product-edit-form-item-error {
+    font-size: 12px;
+    line-height: 1em;
+    color: #ff4742;
+    word-break: normal;
+    word-wrap: break-word;
+    padding-top: 4px;
+}
+
+.select-category {
+    width: fit-content;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #666;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    outline: none;
+    transition: border .2s ease-in-out;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    height: 38px;
+}
+
+.product-sales-info {
+
+}
+
+.product-tier-variation {
+
+}
+
+.options-panel-container {
+
+}
+
+.variation-edit-wrapper {
+    flex-basis: 800px;
+    width: 800px;
+    max-width: 800px;
+}
+
+.options-panel {
+    position: relative;
+    padding: 24px 0 24px 24px;
+    background-color: #fafafa;
+}
+
+.options-panel__item {
+    position: relative;
+    margin-bottom: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    align-content: normal;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+}
+
+.options-panel__item .edit-label {
+    flex-basis: 140px;
+    width: 140px;
+    max-width: 140px;
+    padding-right: 16px;
+    color: #999;
+}
+
+.edit-text {
+    flex-basis: 472px;
+    width: 472px;
+    max-width: 472px;
+}
+
+.mido-input {
+    position: relative;
+    line-height: 0;
+}
+
+input::placeholder {
+    color: #999;
+}
+
+.product-sales-info .edit-input {
+    flex-basis: 800px;
+    width: 800px;
+    max-width: 800px;
+}
+
+.edit-main {
+    flex-basis: 800px;
+    width: 800px;
+    max-width: 800px;
+}
+
+.variation-model-table {
+    position: relative;
+    display: flex;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    border-top-width: 0;
+    border-left-width: 0;
+    overflow: hidden;
+}
+
+.variation-model-table-fixed-left {
+    flex: 2 1 0%;
+    position: relative;
+    box-shadow: none;
+    z-index: 2;
+}
+
+.varation-model-table-header {
+
+}
+
+.table-header {
+    min-height: 40px;
+    -webkit-box-flex: 3;
+    flex: 3;
+    background-color: #fafafa;
+    position: relative;
+    min-width: 140px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: #999;
+    text-align: center;
+    word-break: break-word;
+    border: 1px solid #ebebeb;
+    border-right-width: 0;
+    border-bottom-width: 0;
+}
+
+.popover-cell-content {
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+    padding: 8px;
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.variation-model-table-body {
+
+}
+
+.table-cell-wrapper {
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+}
+
+.first-variation {
+    position: relative;
+    min-width: 140px;
+    min-height: 40px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: #999;
+    text-align: center;
+    word-break: break-word;
+    border: 1px solid #ebebeb;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    -webkit-box-flex: 1;
+    flex: 1;
+    margin-right: -1px;
+}
+
+.data-group {
+    display: flex;
+}
+
+.table-cell {
+    min-height: 41px;
+    -webkit-box-flex: 3;
+    flex: 3;
+    position: relative;
+    min-width: 140px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: #999;
+    text-align: center;
+    word-break: break-word;
+    border: 1px solid #ebebeb;
+    border-right-width: 0;
+    border-bottom-width: 0;
+}
+
+.variation-model-table-middle-scroll {
+    flex: 3 1 0%;
+    position: relative;
+    overflow-x: auto;
+    overflow-y: visible;
+}
+
+.variation-model-table-cell {
+    width: 100%;
+}
+
+.variation-model-table-cell .mido-input__inner {
+    border-color: #fff;
+    border-radius: 0;
+}
+
+.variation-model-table-cell .mido-input__input {
+    color: #333;
+    text-align: center;
+}
+
+.price-button {
+    float: right;
+    min-width: 204px;
+    max-width: 204px;
+    height: 40px;
+    color: #fff;
+    background-color: #ee4d2d;
+    border-color: #ee4d2d;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    padding: 0 16px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    user-select: none;
+    margin-left: 57px;
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+.mido-fix-bottom-card {
+    
+}
+
+.fix-container {
+    z-index: 999;
+}
+
+.fix-container .container {
+    box-shadow: none;
+    background: none;
+    width: 1016px;
+    padding: 16px 40px;
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.container-right {
+    -webkit-box-flex: 1;
+    flex: 1;
+    text-align: right;
+}
+
+.product-submit-button {
+    margin-left: 13px;
+    min-width: 140px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #ee4d2d;
+    border-color: #ee4d2d;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    padding: 0 16px;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    transition: all .2s ease-in-out;
+    user-select: none;
+}

@@ -1,0 +1,12 @@
+.body-right {
+    margin-top: 24px;
+}
+.header-navbar__user {
+    justify-content: normal;
+}
+.header__navbar-user-name {
+    max-width: 22rem;
+    font-weight: 500;
+    color: #222;
+}
+
